@@ -1,0 +1,118 @@
+body{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    margin:0;
+}
+
+/* Style the header element */
+header {
+    background-color: rgba(255, 118, 141, 0); /* Background color for the header */
+    color: white;
+    padding: 10px 0; /* Add some padding at the top and bottom */
+    text-align: center; /* Center-align text in the header */
+    margin-left:5px;
+    margin-right:5px;
+    font-family: fantasy;
+    border:2px solid rgba(255, 255, 255, 0.693);
+    font-size: 20px;
+    box-shadow: inset;
+}
+header:hover{
+    color: black;
+    background-color: rgb(255, 171, 185);
+    transition: 500ms;
+}
+.lyrics{
+    margin-top:50px;
+    text-align: center;
+    color: rgb(255, 255, 255,0.7);
+    justify-content: center;
+    font-size: 30px;
+}
+/* Style the navigation bar */
+nav ul {
+    list-style: none; /* Remove default list markers */
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* Display list items in a horizontal line */
+    margin: 0 10px; /* Add space between list items */
+}
+
+nav a {
+    text-decoration:none; /* Remove underline from anchor links */
+    color: #fff; /* Text color for links */
+}
+
+/* Change link color on hover */
+nav a:hover{
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+}
+.line1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.line2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.line3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.line4{
+    font-family: 'Courier New', Courier, monospace;
+}
+.line5{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.line6{
+    font-family: cursive;
+}
+.line7{
+    font-family: fantasy;
+}
+.lineA{
+    font-family: 'Great Vibes', cursive;
+}
+.lineB{
+    font-family: 'Romanesco', cursive;
+}
+.linex{
+    font-family: monospace;
+}
+
+footer{
+    color: brown;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+/* Style the footer element */
+footer {
+    background-color: rgb(255, 118, 141);; /* Background color for the footer */
+    color: #fff; /* Text color in the footer */
+    padding:  0; /* Add some padding at the top and bottom */
+    text-align: center; /* Center-align text in the footer */
+}
+
+/* Style the copyright text */
+.small {
+    font-size: 14px; /* Set the font size for copyright text */
+}
+
+/* Style the copyright text for the song title */
+.small.copyright {
+    font-weight: bold; /* Make the song title text bold */
+}
+
+/* Add a bottom border to the copyright text */
+.small.copyright {
+    border-top: 1px solid #fff;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+
